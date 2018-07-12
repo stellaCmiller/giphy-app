@@ -1,24 +1,30 @@
 header{
     text-align: center;
-    font-size: 36pt;
+    font-size: 48pt;
     margin-bottom: 10px;;
-    border: solid red 3px;
+    font-family: 'Knewave', cursive;
 }
 
 h2 {
     font-size: 18pt;
+    font-family: 'Bree Serif', serif;
+}
+
+#gif-buttons{
+    margin-bottom: 10px;
 }
 
 #gif-display{
     text-align: center;
     display: inline-block;
-    width: 80%;
-    border: solid red 3px;
+    width: 70%;
 }
 
 #side-nav{
     float: right;
-    width: 20%;
+    margin-right: 2.5%;
+    padding: 10px;
+    width: 25%;
     border: solid red 3px;
 }
 
@@ -34,4 +40,9 @@ label {
     color: crimson;
     font-size: 14pt;
     font-weight: bold;
+}
+
+.gif-box {
+    display: inline-block;
+    margin: 5px;
 }
