@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get Giphy With It</title>
+
+    <!--Browser Reset-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!--Custom Styles-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Gif Search</h1>
+        <h2>Find and save your favorite gifs!</h2>
+    </header>
+
+    <section>
+        <div id="gif-buttons">
+            <p>This is a full width div that shows all the gif buttons</p>
+        </div>
+        <div id="gif-display">
+            <p>This like 80% width column shows all the gifs</p>
+        </div>
+        <aside id="side-nav">
+            <form id="add-topics">
+                <label for="topic">Enter a topic:</label>
+                <input id="user-input" name="topic" type="text">
+                <input id="add-topic"type="submit" value="Enter">
+            </form>
+            <p>Click here to access saved gifs</p>
+            <p>Maybe down here put social buttons, idk</p>
+        </aside>
+    </section>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <!--Giphy logic-->
+    <script src="/assets/js/app.js"></script>
+</body>
+</html>
