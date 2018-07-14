@@ -1,3 +1,7 @@
+body {
+    background-color: lightblue;
+}
+
 header{
     text-align: center;
     font-size: 48pt;
@@ -11,29 +15,42 @@ h2 {
 }
 
 #gif-buttons{
+    width: 95%;
+    margin: auto;
     margin-bottom: 10px;
 }
 
 #gif-display{
     text-align: center;
     display: inline-block;
-    width: 70%;
+    width: 67%;
 }
 
 #side-nav{
     float: right;
+    position: relative;
     margin-right: 2.5%;
     padding: 10px;
-    width: 25%;
+    width: 27%;
     border: solid red 3px;
 }
 
-.gif-button{
+.gif-button, #next-page, .download{
     padding: 10px 5px 10px 5px;
     margin: 3px;
     background-color: pink;
     border-color: pink;
     font-weight: bold;
+}
+
+.download {
+    background-color: #aafbdc;
+    border-color: #aafbdc;
+}
+
+#next-page{
+    display: block;
+    margin: 10px auto 10px auto;
 }
 
 label {
