@@ -28,10 +28,6 @@ var giphyApp = {
             state= "still" 
             src="${e.images.fixed_height_still.url}">
             <p>Rating: ${e.rating}</p>
-            <p>Favorite this Gif? <span><input type="checkbox"></span></p>
-            <a href="${e.images.fixed_height.url}" download="test">
-                <button class="fa fa-download download">Download</button>
-            </a>
             </div>`);
             });
             $("#gif-display").append(`<button id="next-page" offset="${Number(page)+10}" value=${query}>Populate More Gifs!</button>`);
